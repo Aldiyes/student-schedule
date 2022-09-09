@@ -7,33 +7,33 @@
 body {
   display: grid;
   place-items: center;
-  max-height: 100vh;
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 table {
-  border: 1px solid #000;
   border-collapse: collapse;
 }
 
-table .title {
-  height: 40px;
-}
-table tr th {
+table td,
+table th {
   border: 1px solid #000;
   width: 80px;
-  height: 50px;
-  background: #99ccff;
-}
-
-table td {
-  border-left: 1px solid #000;
-  border-top: 1px solid #000;
-  text-align: center;
   height: 80px;
 }
 
-table .date {
+table th,
+table .day {
   background: #99ccff;
+  font-weight: 600;
+  height: 60px;
+}
+
+table td {
+  text-align: center;
+}
+
+table .title {
+  font-size: 24px;
 }
 
 table .schedule {
