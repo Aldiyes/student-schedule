@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
 }
+
 table {
   border-collapse: collapse;
 }
@@ -17,6 +18,7 @@ table {
 table td,
 table th {
   border: 1px solid #000;
+  text-align: center;
   width: 80px;
   height: 80px;
 }
@@ -26,10 +28,6 @@ table .day {
   background: #99ccff;
   font-weight: 600;
   height: 60px;
-}
-
-table td {
-  text-align: center;
 }
 
 table .title {
